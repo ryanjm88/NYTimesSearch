@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+<div class="jumbotron">
+    NY Times Search
+</div>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <h5 class="card-header">
+                Search Parameters
+            </h5>
+            <div class="card=body">
+                <form>
+                    <div class="form-group">
+                        <label for "historicalFigure">Historical Figure</label>
+                        <input type="text" class="form-control" id="historicalFigure" placeholder="Aldous Huxley">
+                        <br>
+                        <label for "articleAmount">Number of Articles</label>
+                        <select id="choice" name="choice">
+                            <option value="First Choice">1</option>
+                            <option value="Second Choice">5</option>
+                            <option value="Third Choice">10</option>
+                         </select>
+                        <br>
+                        <label for "minimumYear">Minimum Year</label>
+                        <input type="text" class="form-control" id="minimumYear" placeholder="1950">
+                        <br>
+                        <label for "maximumYear">Maximum Year</label>
+                        <input type="text" class="form-control" id="maximumYear" placeholder="1950">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
