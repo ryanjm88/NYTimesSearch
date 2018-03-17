@@ -1,6 +1,23 @@
 .jumbotron  {
     background-color: navy;
     font-family: Courier;
-    font-size: 25px;
+    font-size: 65px;
     text-align: center;
+    color: white;
+    border-radius: 0px;
+}
+
+.default-btn{
+    border: none;
+    outline: none;
+    background: #798D8F; 
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.default-btn:hover{
+    background: navy;
+    color: #798D8F;
 }
