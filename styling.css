@@ -1,10 +1,18 @@
 .jumbotron  {
     background-color: navy;
-    font-family: Courier;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 65px;
     text-align: center;
     color: white;
     border-radius: 0px;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.card-header    {
+    font-size: 30px;
 }
 
 .default-btn{
@@ -20,4 +28,26 @@
 .default-btn:hover{
     background: navy;
     color: #798D8F;
+}
+
+.label-header   {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.form-control   {
+    margin-left: 10px;
+    width: 1090px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+#choice {
+    margin-left: 10px;
+}
+
+#searchButton   {
+    margin-left: 10px;
 }

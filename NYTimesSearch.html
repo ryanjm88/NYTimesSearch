@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styling.css">
+    <script src="https://use.fontawesome.com/956a238fe8.js"></script>
 </head>
 <body>
 <div class="jumbotron">
@@ -22,23 +23,28 @@
             </h5>
             <div class="card=body">
                 <form>
-                    <div class="form-group">
-                        <label for "historicalFigure">Historical Figure</label>
+                    <div class="form-group" id="form-body">
+                        <br>
+                        <label for "historicalFigure" class="label-header">Historical Figure</label>
                         <input type="text" class="form-control" id="historicalFigure" placeholder="Aldous Huxley">
                         <br>
-                        <label for "articleAmount">Number of Articles</label>
+                        <label for "articleAmount" class="label-header">Number of Articles</label>
+                        <br>
                         <select id="choice" name="choice">
                             <option value="First Choice">1</option>
                             <option value="Second Choice">5</option>
                             <option value="Third Choice">10</option>
                          </select>
                         <br>
-                        <label for "minimumYear">Minimum Year</label>
+                        <br>
+                        <label for "minimumYear" class="label-header">Minimum Year</label>
                         <input type="text" class="form-control" id="minimumYear" placeholder="1950">
                         <br>
-                        <label for "maximumYear">Maximum Year</label>
-                        <input type="text" class="form-control" id="maximumYear" placeholder="1950">
-                        <button id="searchButton" class="default-btn">Search</button>
+                        <label for "maximumYear" class="label-header">Maximum Year</label>
+                        <input type="text" class="form-control" id="maximumYear" placeholder="2000">
+                        <br>
+                        <button id="searchButton" class="default-btn" style="color: white;"><i class="fa fa-search" style="color: white; margin-right: 2px;"></i>Search</button>
+                        <button id="clearButton" class="default-btn" style="color: white;"><i class="fa fa-trash" style="color: white; margin-right: 2px;"></i>Clear</button>
                     </div>
                 </form>
             </div>
